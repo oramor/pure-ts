@@ -8,4 +8,8 @@ export namespace readonly {
         readonly port: number;
         readonly domain: string;
     }
+
+    type Older<T extends object> = {
+        readonly [K in keyof T]: T[K];
+    }
 }
