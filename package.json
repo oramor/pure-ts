@@ -1,0 +1,19 @@
+{
+  "name": "pure-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romaro83/pure-ts.git"
+  },
+  "author": "RR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romaro83/pure-ts/issues"
+  },
+  "homepage": "https://github.com/romaro83/pure-ts#readme"
+}
