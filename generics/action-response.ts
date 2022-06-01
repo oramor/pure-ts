@@ -1,6 +1,6 @@
-export namespace ActionResponse {
-    type JsonObject = { [key: string]: string | number | JsonObject };
+import JsonObject from '../types/json'
 
+export namespace ActionResponse {
     type AbstractResponse = {
         httpStatus: number;
     }
