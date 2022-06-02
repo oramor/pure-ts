@@ -12,7 +12,7 @@ export namespace omit {
 
     type Polyfill<T, K extends keyof T> = {
         /**
-         * P like a local parameter in a loop. Operator 'as' narrow to P or never.
+         * P like a local parameter in a loop. Operator 'as' narrows to P or never.
          * It's important that result of 'P in keyof T' is P, with which we
          * execute 'as'
          */
