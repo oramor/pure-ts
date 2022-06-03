@@ -1,9 +1,14 @@
 {
     "compilerOptions": {
         "strict": true,
+<<<<<<< HEAD
         "target": "ES2021",
         "lib": [
             "ES2022"
+=======
+        "lib": [
+            "ES2021"
+>>>>>>> 5e1d6349ea8181b123367957846fba9fb6716f23
         ]
     }
 }
