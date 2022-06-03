@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
-        "strict": true
+        "strict": true,
+        "target": "ES2021",
+        "lib": [
+            "ES2022"
+        ]
     }
 }
